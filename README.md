@@ -16,3 +16,11 @@ Gambar tersebut memunculkan bahwa setiap client menerima ketiga message yang dik
 ![alt text](image-7.png)
 <br>
 Pada gambar di atas saya merubah port pada server.rs dan juga client.rs makanya mereka dapat menerima message. Namun jika pada client.rs tidak diganti maka akan memunculkan error karena otomatis disconnect dengan server karena alamat port yang berbeda.
+
+## 2.3 Small changes. Add some information to client
+![alt text](image-8.png)
+![alt text](image-9.png)
+![alt text](image-10.png)
+![alt text](image-11.png)
+<br>
+Dengan modifikasi kecil tersebut, dapat dimunculkan dari IP mana message tersebut dikirimkan. Ini dilakukan dengan menambahkan pada bcast.tx.
